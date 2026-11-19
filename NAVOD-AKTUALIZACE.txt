@@ -1,0 +1,19 @@
+AKTUALIZACE KALKULACKY PSP — 19. 11. 2026
+
+Tento ZIP obsahuje kompletni hotovy staticky web pro GitHub Pages.
+
+1. Rozbalte ZIP.
+2. Na GitHubu otevrete existujici repozitar kalkulacka-PSP, zalozku Code a vetev main.
+3. Zvolte Add file > Upload files.
+4. Pretahnete index.html, slozku assets a dalsi soubory webu z tohoto ZIPu do hlavni slozky repozitare. Nenahravejte ZIP ani obalovou slozku.
+5. Existujici README.md ponechte. Tento balicek ho zamerne neobsahuje.
+6. Potvrdte Commit changes primo do main.
+7. Pockejte na uspesne dokonceni nasazeni v Actions. Adresa webu zustane stejna.
+8. Otevrete web a na Macu obnovte pomoci Cmd+Shift+R, na Windows Ctrl+Shift+R.
+
+Nahrajte index.html a nove assets spolecne. Stare soubory v assets mohou pro tuto aktualizaci zustat, novy index.html odkazuje na nove nazvy.
+Soubor .nojekyll ponechte nebo nahrajte prilozeny. Na Macu skryte soubory zobrazite Cmd+Shift+tecka.
+NAVOD-AKTUALIZACE.txt nemusite na GitHub nahravat.
+GeoJSON a SVG mapa jsou prilozene. Mapove podklady a Google Fonts se dale nacitaji z internetu.
+Polozky ulozene pod stejnou adresou a ve stejnem prohlizeci se nadale ctou ze stejneho klice localStorage.
+Overeno v prohlizeci: nacteni 26 polygonu, vypocet, export XLSX, zpetny import XLSX a obnoveni polozky po reloadu.

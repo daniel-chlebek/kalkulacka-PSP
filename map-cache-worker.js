@@ -1,5 +1,5 @@
 const MAP_URL = new URL('./mapa-zon.svg', self.location.href).href
-const CACHE_NAME = 'parking-zone-map-v2'
+const CACHE_NAME = 'parking-zone-map-e4d7ef5ff527'
 
 self.addEventListener('install', () => {
   self.skipWaiting()
